@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: fixed;
+
+}
+
+.container {
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/background-image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+
+}
+
+.navbar .logo {
+    margin-left: 3rem;
+}
+
+.navbar .links a {
+    color: rgb(2, 1, 1);
+    text-transform: uppercase;
+    padding: 0px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+.main .search_icon {
+    cursor: pointer;
+    height: 20px;
+
+}
+
+.main .btn {
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    background: rgb(255, 28, 115);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.main .btn:hover {
+    color: black;
+}
+
+/* -------rightside style-------- */
+
+.rightside {
+    float: right;
+}
+
+.loan {
+
+    box-shadow: 5px 5px 20px 0px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 7px 5px;
+    border-radius: 20px;
+    width: 150px;
+    margin-top: 2rem;
+    margin-left: 8%;
+    cursor: pointer;
+
+}
+
+.loan p {
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.heros {
+    position: relative;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -28%);
+
+}
+
+.house_loan {
+    box-shadow: 5px 5px 20px 0px;
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 76%;
+    margin-top: 8rem;
+    cursor: pointer;
+}
+
+.house_loan p {
+    padding-left: 8px;
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.house_loan img {
+    height: 22px;
+
+}
+
+
+/* --------content side style------- */
+
+
+.content {
+    margin-left: 7rem;
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-top: 10rem;
+}
+
+.content h3 {
+    padding: 15px;
+    font-size: 65px;
+}
+
+.content p {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.content .btns {
+    padding: 15px;
+
+}
+
+.btns .one {
+    background: rgb(255, 28, 115);
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btns .two {
+    color: rgb(249, 65, 151);
+    background: white;
+    padding: 7px 12px;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border-color: rgb(255, 28, 115);
+    cursor: pointer;
+}
+
+.btns .one:hover {
+    color: rgb(249, 65, 151);
+    background: white;
+    border: 2px solid rgb(255, 28, 115);
+    border-color: rgb(255, 28, 115);
+}
+
+.btns .two:hover {
+    background: rgb(255, 28, 115);
+    color: white;
+    border: none;
+}
+
+footer {
+    margin-top: 5rem;
+    display: flex;
+    padding: 0 10px;
+}
+
+footer img {
+    padding: 0 5px;
+
+}
+
+.img_one{
+    height: 25px;
+}
+
+.other_img{
+    height: 20px;
+    padding: 0 2px;
+}
+
+footer h6 {
+    padding-left: 5px;
+    font-size: 20px;
+    padding-top: 0px;
+}
